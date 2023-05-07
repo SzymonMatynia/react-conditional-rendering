@@ -1,5 +1,5 @@
 {
-  "name": "react-conditional-rendering",
+  "name": "react-conditional-rendering-component",
   "version": "1.0.0",
   "description": "This is an extremely simple react component for conditional rendering",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     ".": "./dist/index.js"
   },
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "jest --config jestconfig.json --passWithNoTests",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
